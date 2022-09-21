@@ -1,0 +1,24 @@
+{
+  "name": "gasless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/hardhat-upgrades": "^1.20.0",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@opengsn/contracts": "^3.0.0-beta.1",
+    "@opengsn/provider": "^3.0.0-beta.1",
+    "dotenv": "^16.0.2"
+  }
+}
